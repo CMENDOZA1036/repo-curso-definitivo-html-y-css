@@ -4,5 +4,5 @@ html {
 }
 
 h1 {
-  font-size: inherit;
+  font-size: inherit;/* Con esta Le estamos diciendo que herede el tamano de fuente de la etiqueta de html*/
 }

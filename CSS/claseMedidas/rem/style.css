@@ -4,10 +4,10 @@
   padding: 0;
 }
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;/*cuando hacemos esto, el rem queda valiendo 10px*/
 }
 p {
-  font-size: 1.6rem;
+  font-size: 1.6rem;/*Siempre un rem tendra un valor de 16px*/
 }
 main div {
   font-size: 1.6rem;

@@ -58,3 +58,42 @@ body {
 html {
     font-size: 62.5%;
 }
+
+
+.header {
+    background-color:var(--secundary-purpure-1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border-bottom: 1px solid var(--black);/*Con este le ponemos una linea abajo*/
+    align-items: center;
+}
+
+.logo-sm {
+    width: 30%;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+    margin: 0.5rem;
+    color: var(--white);
+    margin-bottom: 2px;
+    
+
+}
+
+.menu li:hover {
+    margin-bottom: 2px;
+    border: 1px solid var(--white);
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0;
+    color: var(--black);
+    
+}
+

@@ -73,8 +73,10 @@ html {
     width: 30%;
 }
 
+
 .menu li {
     display: inline-block;
+    flex-wrap: wrap;
     font-size: 1rem;
     font-weight: bold;
     list-style: none;
@@ -82,7 +84,7 @@ html {
     color: var(--white);
     margin-bottom: 2px;
     
-
+    
 }
 
 .menu li:hover {
@@ -97,3 +99,51 @@ html {
     
 }
 
+.main-container  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}  
+
+.box {
+    height: 10rem;
+    width: 10rem;
+    flex-basis: 5rem;
+    flex-grow: 1;
+    border: 0.3rem solid black;
+    
+}
+
+.main-container div > a {
+    text-decoration: none;
+    
+    
+}  
+.main-container div {
+    margin-bottom: 10rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1 {
+    background-color: var(--cyan);
+}
+
+.container-2 {
+    background-color: var(--danger);
+}
+
+.container-3 {
+    background-color: var(--hospital-green);
+}
+
+.container-4 {
+    background-color: var(--orange);
+}
+
+.redes {
+    display: flex;
+    justify-content: end;
+}

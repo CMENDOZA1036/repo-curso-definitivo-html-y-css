@@ -147,3 +147,11 @@ html {
     display: flex;
     justify-content: end;
 }
+
+.main-container1 {
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    padding-left: 120px;
+    background-color: var(--hospital-green);
+}
